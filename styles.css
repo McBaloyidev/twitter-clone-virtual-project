@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side-bar {
+    height: 100vh;
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    
+}
+.side-bar img {
+    height: 30px;
+    width: 30px; 
+    cursor: pointer;   
+}
+.side-bar img:hover {
+    background: rgb(247 249 249);
+    border-radius: 9999px;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+.navigation svg {
+    height: 26px;
+    width: 26px;
+}
+.nav-items {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-items:hover {
+    background: rgb(247 249 249);
+    border-radius: 9999px;
+}
+
+.nav-items p { 
+    margin: 0 16px 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+} 
+.post-button {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255 255 255);
+    background: #1d9bf0;
+    height: 52px;
+    width: 218px;
+    border: 1px;
+    padding: 0 32px;
+    border-radius: 9999px;
+}
+
+.account {
+    margin: 12px 0;
+}
+.tweet {
+    margin: 4px 0;
+}
+.profile-button {
+    height: 64px;
+    width: 242px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9999px;
+    border: 1px;
+    
+}
+
+.profile-button .profile-circle img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.account-details {
+    margin: 0 12px;
+}
